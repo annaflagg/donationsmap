@@ -1,0 +1,298 @@
+.bg {
+
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+
+}
+
+
+.counties {
+  fill: none;
+   stroke: #fff;
+  stroke-linejoin: round;
+  stroke-width: .1;
+  
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-width: 1;
+  pointer-events: none;
+  
+  line-height: 1.5em;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+
+}
+
+
+
+.vislabel {
+  fill: #939598;
+  font-size: 14px;
+  font-family: "Verdana", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  pointer-events: none;
+  
+  line-height: 1.5em;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+
+}
+
+.yearlabel {
+  fill: #333;
+  
+  font-size: 38px;
+  font-family: "Georgia";
+  pointer-events: none;
+  line-height: 1.5em;
+  
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+
+.textbox {
+	fill: #FFF342;
+   stroke: #FFF342;
+  stroke-linejoin: round;
+  stroke-width: 10;
+  opacity: 1;
+	
+}
+
+
+
+.highlighted {
+   stroke: yellow;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  
+}
+
+.loadingtext {
+  fill: #A7A9AC;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: sans-serif;
+  pointer-events: none;
+  line-height: 1.5em;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+text-anchor: middle;
+}
+
+
+.countylabel {
+  fill: #414042;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: sans-serif;
+  pointer-events: none;
+  line-height: 1.5em;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+
+/*  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
+	/*  text-transform: uppercase;
+	text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
+	
+}	
+
+.countydatalabel {
+  fill: #414042;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: sans-serif;
+  pointer-events: none;
+  line-height: 1.5em;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+
+.yearcircle {
+	fill: #D1D3D4;
+	
+}
+
+.highlightcircle {
+	fill: #333;
+
+	
+}
+
+
+.g-legend {
+	text-anchor: end;
+}
+
+.legendoutline {
+	fill: none;
+	stroke: #D1D3D4;
+	stroke-width: .05;
+	
+}
+
+.g-legend .legendtext {
+	fill: #A7A9AC;
+	font-size: 10px;
+	font-weight: 100;
+	font-family: Verdana;
+	pointer-events: none;
+	line-height: 1.5em;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	margin-top:10px;
+}
+
+.legendlabel {
+fill: #A7A9AC;
+	font-size: 11px;
+	font-weight: 100;
+	font-family: Verdana;
+	pointer-events: none;
+	line-height: 1.5em;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+		text-anchor: middle;
+}
+
+.yeartextlabel {
+fill: #A7A9AC;
+	font-size: 13px;
+	font-weight: 100;
+	font-family: Verdana;
+	pointer-events: none;
+	line-height: 1.5em;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	margin-top:10px;
+	text-anchor: middle;
+}
+
+
+#zipcodes path {
+ 
+}
+
+
+
+.q0-9 { 
+  /*-webkit-transition: fill .15s;*/
+fill:rgb(247,251,255); }
+.q1-9 { 
+  /*-webkit-transition: fill .15s;*/
+fill:rgb(222,235,247); }
+.q2-9 { 
+  /*-webkit-transition: fill .15s;*/
+fill:rgb(198,219,239); }
+
+.q3-9 { 
+ /*-webkit-transition: fill .15s;*/
+fill:rgb(158,202,225); }
+.q4-9 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(107,174,214); }
+.q5-9 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(66,146,198); }
+.q6-9 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(33,113,181); }
+.q7-9 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(8,81,156); }
+.q8-9 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(8,48,107); }
+
+
+.q-red0 {
+fill: #D68D91
+}
+
+.q-red1 { 
+ /* -webkit-transition: fill .15s;*/
+fill:#C15656; }
+
+.q-red2 { 
+ /* -webkit-transition: fill .15s;*/
+fill:#B0353F; }
+
+.q-red3 { 
+ /* -webkit-transition: fill .15s;*/
+fill:#9A1C25; }
+
+.q-red4 { 
+ /* -webkit-transition: fill .15s;*/
+fill:#661E26; }
+
+.q-blue0 {
+fill: #8CBDD8
+}
+
+.q-blue1 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(66,146,198); }
+
+.q-blue2 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(33,113,181); }
+
+.q-blue3 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(8,81,156); }
+
+.q-blue4 { 
+ /* -webkit-transition: fill .15s;*/
+fill:rgb(8,48,107); }
+
+
+
+
+.na { 
+ /* -webkit-transition: fill .15s;*/
+fill: #E6E7E8; 
+
+/*stroke: grey;
+stroke-width: 3;*/
+}
+
+
+.blackdot { fill:rgb(0,0,0); }
+
+
+
