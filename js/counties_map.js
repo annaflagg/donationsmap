@@ -36,8 +36,8 @@ var numcolors = 0;
 svg.append("text").attr("x", width/2).attr("y", .4*height).attr("class", "loadingtext").text("Loading, please wait")
     
 queue()
-    .defer(d3.json, "/assets/womendonorsvis/data/us.json")
-	.defer(d3.csv, "/assets/womendonorsvis/data/Gender_Counties-DR-small-washed-culled-final.csv", function(d) { 
+    .defer(d3.json, "/data/us.json")
+	.defer(d3.csv, "/data/Gender_Counties-DR-small-washed-culled-final.csv", function(d) { 
     		rateById.set(+d.fips+"_"+d.Cycle, d);
     })
     .await(ready);
